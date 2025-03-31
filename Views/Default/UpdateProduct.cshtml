@@ -1,0 +1,77 @@
+﻿@model DesignPattern.CQRS.CQRSPattern.Results.GetProductUpdateQueryResult
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <br />
+    <form method="post" id="updateProductForm">
+
+        <label>Ürün Id</label>
+        <input type="text" class="form-control" asp-for="ProductID" readonly />
+        <br />
+
+        <label>Ürün Adı</label>
+        <input type="text" class="form-control" asp-for="Name" id="productName" required />
+        <span class="text-danger" id="nameError"></span>
+        <br />
+
+        <label>Ürün Stok Sayısı</label>
+        <input type="number" class="form-control" asp-for="Stock" id="productStock" required min="0" />
+        <span class="text-danger" id="stockError"></span>
+        <br />
+
+        <label>Ürün Fiyatı</label>
+        <input type="number" step="0.01" class="form-control" asp-for="Price" id="productPrice" required min="1.00" />
+        <span class="text-danger" id="priceError"></span>
+        <br />
+
+        <label>Ürün Açıklaması</label>
+        <input type="text" class="form-control" asp-for="Description" />
+        <br />
+
+        <button type="submit" class="btn btn-success">Ürünü Güncelle</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#updateProductForm").submit(function (e) {
+                let isValid = true;
+
+                if ($("#productName").val().trim() === "") {
+                    $("#nameError").text("Ürün adı boş olamaz.");
+                    isValid = false;
+                } else {
+                    $("#nameError").text("");
+                }
+
+                let stockValue = parseInt($("#productStock").val(), 10);
+                if (isNaN(stockValue) || stockValue < 0) {
+                    $("#stockError").text("Stok sayısı 0 veya daha büyük olmalıdır.");
+                    isValid = false;
+                } else {
+                    $("#stockError").text("");
+                }
+
+                let priceValue = parseFloat($("#productPrice").val());
+                if (isNaN(priceValue) || priceValue <= 0) {
+                    $("#priceError").text("Fiyat 0'dan büyük olmalıdır.");
+                    isValid = false;
+                } else {
+                    $("#priceError").text("");
+                }
+
+                if (!isValid) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+}
