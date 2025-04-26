@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DesignPattern.CQRS.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DesignPattern.CQRS.bundle.scp.css"
+      "PackagePath": "staticwebassets\\DesignPattern.CQRS.btdq14eln1.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DesignPattern.CQRS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DesignPattern.CQRS.Microsoft.AspNetCore.StaticWebAssets.props",
