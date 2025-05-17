@@ -1,0 +1,48 @@
+﻿@model DesignPattern.CQRS.CQRSPattern.Commands.CreateMusteriCommand
+
+@{
+    ViewData["Title"] = "Yeni Müşteri Ekle";
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h2>Yeni Müşteri Ekle</h2>
+
+<form asp-action="AddMusteri" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="Ad" class="control-label">Ad</label>
+        <input asp-for="Ad" class="form-control" />
+        <span asp-validation-for="Ad" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SoyAd" class="control-label">Soyad</label>
+        <input asp-for="SoyAd" class="form-control" />
+        <span asp-validation-for="SoyAd" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label">E-Posta</label>
+        <input asp-for="Email" type="email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Telefon" class="control-label">Telefon</label>
+        <input asp-for="Telefon" class="form-control" />
+        <span asp-validation-for="Telefon" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EArsivMi" class="control-label">E-Arşiv Mi?</label>
+        <input asp-for="EArsivMi" type="checkbox" class="form-check-input" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Aktiflik" class="control-label">Aktiflik</label>
+        <input asp-for="Aktiflik" type="checkbox" class="form-check-input" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+
+

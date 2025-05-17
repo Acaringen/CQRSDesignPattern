@@ -10,5 +10,6 @@ namespace DesignPattern.CQRS.DAL
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<ErrorLog> ErrorLogs { get; set; }
+        public DbSet<Musteri> Musteriler { get; set; }
     }
 }

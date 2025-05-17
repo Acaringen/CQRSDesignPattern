@@ -15,6 +15,9 @@ builder.Services.AddScoped<GetProductByIDQueryHandler>();
 builder.Services.AddScoped<GetProductUpdateByIDQueryHandler>();
 builder.Services.AddScoped<UpdateProductCommandHandler>();
 builder.Services.AddScoped<ErrorLogService>();
+builder.Services.AddScoped<CreateMusteriCommandHandler>();
+builder.Services.AddScoped<GetMusteriQueryHandler>();
+
 
 builder.Services.AddControllersWithViews();
 

@@ -294,5 +294,5 @@ C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\bin\Debug\net8.0\D
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Debug\net8.0\DesignPattern.CQRS.sourcelink.json
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Debug\net8.0\staticwebassets\msbuild.DesignPattern.CQRS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Debug\net8.0\DesignPa.10A2BA3C.Up2Date
+C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

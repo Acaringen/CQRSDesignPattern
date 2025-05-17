@@ -1,0 +1,35 @@
+﻿@model List<DesignPattern.CQRS.CQRSPattern.Queries.GetMusteriByIDQuery>
+
+@{
+    ViewData["Title"] = "Müşteri Listesi";
+}
+
+<h2>Müşteri Listesi</h2>
+
+<a href="/Musteri/AddMusteri" class="btn btn-primary mb-3">Yeni Müşteri Ekle</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Email</th>
+            <th>Telefon</th>
+            <th>Aktif Mi?</th>
+            <th>E-Arşiv Mi?</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Ad</td>
+                <td>@item.SoyAd</td>
+                <td>@item.Email</td>
+                <td>@item.Telefon</td>
+                <td>@(item.Aktiflik ? "Evet" : "Hayır")</td>
+                <td>@(item.EArsivMi ? "Evet" : "Hayır")</td>
+            </tr>
+        }
+    </tbody>
+</table>
