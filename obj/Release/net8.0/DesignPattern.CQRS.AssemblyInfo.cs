@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesignPattern.CQRS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a910a99fa3122082df1aed1302f695e49915d2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesignPattern.CQRS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesignPattern.CQRS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

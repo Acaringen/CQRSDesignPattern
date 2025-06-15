@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sUdYEGbdRvoh4XGIM8E+H1y6AJiRuXHwdq73EFGQfzg=",
+  "Hash": "5auVfgNZKr31FL9CkapLYVPUm2pgEn6hII5fpG9O6tA=",
   "Source": "DesignPattern.CQRS",
   "BasePath": "_content/DesignPattern.CQRS",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DesignPattern.CQRS.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\css\\login.css",
+      "SourceId": "DesignPattern.CQRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\",
+      "BasePath": "_content/DesignPattern.CQRS",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y0vgxrc5kp",
+      "Integrity": "7vHyFyK7L7L3GW/0GozdYKON5+j51YcNw0TLuxn3X9A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\css\\site.css",
@@ -1433,6 +1454,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7vHyFyK7L7L3GW/0GozdYKON5+j51YcNw0TLuxn3X9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 11:43:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7vHyFyK7L7L3GW/0GozdYKON5+j51YcNw0TLuxn3X9A="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.y0vgxrc5kp.css",
+      "AssetFile": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7vHyFyK7L7L3GW/0GozdYKON5+j51YcNw0TLuxn3X9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 11:43:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0vgxrc5kp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7vHyFyK7L7L3GW/0GozdYKON5+j51YcNw0TLuxn3X9A="
         }
       ]
     },

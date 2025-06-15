@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\DesignPattern.CQRS.btdq14eln1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\alkim\\source\\repos\\DesignPatterns\\DesignPattern.CQRS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

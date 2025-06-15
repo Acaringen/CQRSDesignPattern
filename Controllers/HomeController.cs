@@ -1,5 +1,8 @@
+﻿using DesignPattern.CQRS.CQRSPattern.Commands;
+using DesignPattern.CQRS.CQRSPattern.Handlers;
 using DesignPattern.CQRS.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace DesignPattern.CQRS.Controllers
@@ -12,7 +15,8 @@ namespace DesignPattern.CQRS.Controllers
         {
             _logger = logger;
         }
-
+       
+        [SessionAuthorize]
         public IActionResult Index()
         {
             return View();
@@ -22,6 +26,32 @@ namespace DesignPattern.CQRS.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Login()
+        
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(string username, string password)
+        {
+            var handler = new LoginUserCommandHandler();
+            var result = handler.Handle(new LoginUserCommand(username, password));
+
+            if (result.IsSuccess)
+            {
+                HttpContext.Session.SetString("IsLoggedIn", "true");
+                HttpContext.Session.SetString("Username", result.Username);
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.Error = result.Message;
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

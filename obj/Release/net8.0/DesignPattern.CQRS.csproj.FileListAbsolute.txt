@@ -226,7 +226,6 @@ C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\scopedcss\bundle\DesignPattern.CQRS.styles.css
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\scopedcss\projectbundle\DesignPattern.CQRS.bundle.scp.css
-C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\DesignPattern.CQRS.csproj.CopyComplete
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\DesignPattern.CQRS.dll
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\refint\DesignPattern.CQRS.dll
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\DesignPattern.CQRS.pdb
@@ -291,3 +290,9 @@ C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\bin\Release\net8.0
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\bin\Release\net8.0\DesignPattern.CQRS.staticwebassets.endpoints.json
+C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\DesignPattern.CQRS.sourcelink.json
+C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\staticwebassets\msbuild.DesignPattern.CQRS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\alkim\source\repos\DesignPatterns\DesignPattern.CQRS\obj\Release\net8.0\DesignPa.10A2BA3C.Up2Date
